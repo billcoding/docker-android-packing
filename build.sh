@@ -1,0 +1,1 @@
+docker buildx build -t billcoding/android-rn-packing -f Dockerfile --platform "linux/arm64,linux/amd64" --push .
