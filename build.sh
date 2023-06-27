@@ -1,1 +1,1 @@
-docker buildx build --builder "mul-platform-builder" -t billcoding/android-rn-packing -f Dockerfile --platform "linux/arm64,linux/amd64" --push .
+docker buildx build -t billcoding/android-rn-packing -f Dockerfile --platform "linux/amd64" --push .
