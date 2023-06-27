@@ -1,13 +1,13 @@
 # docker-android-packing
-The Docker Android Packing Dockerfile
+The Docker Android Packing Dockerfile based on Debian 12
 
 Repository: https://github.com/billcoding/docker-android-packing
 
 Environment inside
 ---
 - Android SDK
-- JDK 11 LTS
+- JDK 17 LTS
 - Node.js
-- React Native
+- NPM
 - MinIO Client
 - Apktool
