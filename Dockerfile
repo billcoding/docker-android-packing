@@ -3,7 +3,7 @@ FROM debian:stable-20230612-slim
 LABEL Maintainer="billcoding <bill07wang@gmail.com>"
 LABEL Description="The Docker Android Packing Dockerfile based on Debian 12"
 
-RUN apt update && apt install -y wget unzip xz-utils 
+RUN apt update && apt install -y wget unzip xz-utils imagemagick
 
 RUN wget -O /tmp/node-v18.16.1-linux-x64.tar.xz https://nodejs.org/download/release/latest-v18.x/node-v18.16.1-linux-x64.tar.xz && \
 tar xvf /tmp/node-v18.16.1-linux-x64.tar.xz -C /tmp && \
